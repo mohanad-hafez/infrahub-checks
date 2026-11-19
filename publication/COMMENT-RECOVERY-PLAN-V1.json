@@ -1,0 +1,85 @@
+{
+  "frozen_at": "2026-11-19T02:38:33.348Z",
+  "owned_fork": "mohanad-hafez/infrahub-checks",
+  "default_stable": "ec24e039dc52910d8afcff07200007a75d92d054",
+  "activation_initial_body": "🚀 [Bug fixer agent](https://github.com/opsmill/infrahub/actions/runs/35276466787) has started processing this issue comment\n\n<!-- gh-aw-workflow-id: Bug fixer agent -->\n\n<!-- gh-aw-comment-type: reaction -->",
+  "source_run": "https://github.com/mohanad-hafez/infrahub-checks/actions/runs/44445525991",
+  "targets": [
+    {
+      "repeat": 2,
+      "fixture": {
+        "repeat": 2,
+        "number": 2,
+        "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/2",
+        "head_ref": "publication-head-02",
+        "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+        "base_ref": "publication-base-01",
+        "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+        "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+        "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+        "labels": [
+          "group/backend"
+        ],
+        "author": "mohanad-hafez",
+        "draft": true
+      },
+      "commits": [
+        "9b728c6d89a7fb928b3e1f636071e01f2fdbfc57",
+        "2ccf7b8b61fda0cd516b654512cca084c24ed085"
+      ],
+      "final_head": "2ccf7b8b61fda0cd516b654512cca084c24ed085",
+      "comment_id": 6997955045,
+      "comment_author": "github-actions[bot]",
+      "publication_verified": true,
+      "comment_complete": false,
+      "process": {
+        "repeat": 2,
+        "seconds": 6.478626938,
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "stdout": "",
+        "stderr": "Foreign head: stop\n+ actual - expected\n\n+ '9b728c6d89a7fb928b3e1f636071e01f2fdbfc57'\n- '996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc'\n\n"
+      }
+    },
+    {
+      "repeat": 3,
+      "fixture": {
+        "repeat": 3,
+        "number": 3,
+        "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/3",
+        "head_ref": "publication-head-03",
+        "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+        "base_ref": "publication-base-01",
+        "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+        "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+        "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+        "labels": [
+          "group/backend"
+        ],
+        "author": "mohanad-hafez",
+        "draft": true
+      },
+      "commits": [
+        "c1f4cb3002c7b61e3e019779be857d2c0ef3c816",
+        "d4abad11d7f5cf492b3b25358e334a6e6a825cde"
+      ],
+      "final_head": "d4abad11d7f5cf492b3b25358e334a6e6a825cde",
+      "comment_id": 6997954332,
+      "comment_author": "github-actions[bot]",
+      "publication_verified": true,
+      "comment_complete": false,
+      "process": {
+        "repeat": 3,
+        "seconds": 6.418227763,
+        "status": 1,
+        "signal": null,
+        "error": null,
+        "stdout": "",
+        "stderr": "Foreign head: stop\n+ actual - expected\n\n+ 'c1f4cb3002c7b61e3e019779be857d2c0ef3c816'\n- '996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc'\n\n"
+      }
+    }
+  ],
+  "allowed_effect": "PATCH each existing activation comment once after independent exact head/body/tree checks. Never create commits, refs, PRs or comments.",
+  "comparison": "Recovery duration is separate. Do not combine it into a successful full-process median."
+}

@@ -3,17 +3,17 @@ on:
   push:
     branches: [publication-controller-01]
 permissions:
-  contents: write
+  contents: read
   pull-requests: write
 jobs:
-  publish:
+  update:
     if: github.repository == 'mohanad-hafez/infrahub-checks'
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 5
     strategy:
       fail-fast: false
       matrix:
-        repeat: [1, 2, 3]
+        repeat: [2, 3]
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
@@ -21,20 +21,13 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '24.0.0'
-      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-        with:
-          repository: mohanad-hafez/infrahub-checks
-          ref: 418c58a723bdba4697c28558330377deabd79870
-          path: input-source
-          persist-credentials: false
-          fetch-depth: 1
-      - name: Apply prepared commits
-        run: node publication/run.cjs '${{ matrix.repeat }}' input-source
+      - name: Update comment
+        run: node publication/recover_comments.cjs '${{ matrix.repeat }}'
         env:
           GH_TOKEN: ${{ github.token }}
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
-          name: publication-${{ matrix.repeat }}
-          path: publication/evidence-${{ matrix.repeat }}/
+          name: comment-recovery-${{ matrix.repeat }}
+          path: publication/recovery-${{ matrix.repeat }}/
           retention-days: 30
