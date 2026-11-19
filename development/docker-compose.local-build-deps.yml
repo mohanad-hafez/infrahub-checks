@@ -1,5 +1,0 @@
----
-services:
-  task-manager:
-    volumes:
-      - ../:/source

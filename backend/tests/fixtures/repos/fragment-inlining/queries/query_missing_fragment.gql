@@ -1,9 +1,0 @@
-query QueryMissingFragment {
-  InfraDevice {
-    edges {
-      node {
-        ...undeclaredFragment
-      }
-    }
-  }
-}

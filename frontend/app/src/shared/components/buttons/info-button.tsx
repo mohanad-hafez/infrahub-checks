@@ -1,9 +1,0 @@
-import { Button, type ButtonProps } from "@infrahub/ui";
-
-import { Icon } from "@/shared/components/display/icon";
-
-export const InfoButton = (props: ButtonProps) => (
-  <Button variant="ghost" size="xs" shape="circle" {...props}>
-    <Icon icon="mdi:information-slab-circle-outline" className="text-custom-blue-800" />
-  </Button>
-);

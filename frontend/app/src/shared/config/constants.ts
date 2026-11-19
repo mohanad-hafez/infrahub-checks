@@ -1,2 +1,0 @@
-export const MAX_VALUE_LENGTH_DISPLAY = 40;
-export const MAX_PASSWORD_DOTS_DISPLAY = 20;
