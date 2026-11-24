@@ -1,0 +1,195 @@
+{
+  "captured_at": "2026-11-19T02:22:06.576Z",
+  "owned_fork": "mohanad-hafez/infrahub-checks",
+  "category": "G5C2",
+  "rank": 3,
+  "original_run": "https://github.com/opsmill/infrahub/actions/runs/35276466787",
+  "fixtures": [
+    {
+      "repeat": 1,
+      "number": 4,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/4",
+      "head_ref": "paired-publication-20261124-01-head-01",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    },
+    {
+      "repeat": 2,
+      "number": 5,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/5",
+      "head_ref": "paired-publication-20261124-01-head-02",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    },
+    {
+      "repeat": 3,
+      "number": 6,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/6",
+      "head_ref": "paired-publication-20261124-01-head-03",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    },
+    {
+      "repeat": 4,
+      "number": 7,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/7",
+      "head_ref": "paired-publication-20261124-01-head-04",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    },
+    {
+      "repeat": 5,
+      "number": 8,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/8",
+      "head_ref": "paired-publication-20261124-01-head-05",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    },
+    {
+      "repeat": 6,
+      "number": 9,
+      "url": "https://github.com/mohanad-hafez/infrahub-checks/pull/9",
+      "head_ref": "paired-publication-20261124-01-head-06",
+      "head_sha": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+      "base_ref": "paired-publication-20261124-01-base",
+      "base_sha": "418c58a723bdba4697c28558330377deabd79870",
+      "title": "fix: convert_object_type returns 404 for already-converted node (closes #10646)",
+      "body_sha256": "1e1713541f095bc6f7a96417012c750fd9f1572182a865b1075bfd9d055e0c3f",
+      "labels": [
+        "group/backend"
+      ],
+      "author": "mohanad-hafez",
+      "draft": true
+    }
+  ],
+  "parent": "996926c95c2c87ae1f8e31cdeddd7bfc2bdb7ffc",
+  "workspace_base": "418c58a723bdba4697c28558330377deabd79870",
+  "prepared_head": "1186b34081df36fc0cd70e45daf7e5197ed40864",
+  "prepared_commits": [
+    "08d869460543ab2947715764afdc6dc95fa18cb7",
+    "1186b34081df36fc0cd70e45daf7e5197ed40864"
+  ],
+  "bundle": "aw-ai-bug-pipeline-10646-convert-idempotent-d956ce950fd96e9a.bundle",
+  "bundle_sha256": "d7e2da2e32b089202a119c9524f2b7d5b2588370761239a0653953d6b3425764",
+  "bundle_ref": "refs/heads/ai-bug-pipeline-10646-convert-idempotent-d956ce950fd96e9a",
+  "expected_final_tree": "cb448133ef610670212d78e0015cafe1c311b648",
+  "allowed_paths": [
+    "backend/infrahub/graphql/mutations/convert_object_type.py",
+    "changelog/10646.fixed.md"
+  ],
+  "commits": [
+    {
+      "published_original": "0288031c5e8af53f0d14c38149727921931563e3",
+      "path": "backend/infrahub/graphql/mutations/convert_object_type.py",
+      "blob": "707b09cae5c22d15a0e4e5d52e9fb659aca2bb38",
+      "tree": "fbae819cd15fe7091b55ff71bad33b7865edb04b",
+      "message": "fix: return 404 when converting an already-converted node\n\nconvert_object_type looked up the source node with the default\nraise_on_error=False, then dereferenced the possibly-None result with\n.get_kind(), raising AttributeError (HTTP 500) when the id had been\nconsumed by a prior conversion. Pass raise_on_error=True on both\nsource-node lookups so a missing id surfaces as NodeNotFoundError (404).\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+    },
+    {
+      "published_original": "76d416354e4fa0088ae6ea0ca9ffaa9764cd85c4",
+      "path": "changelog/10646.fixed.md",
+      "blob": "fbba9c779a3fb850144bda8594478447a4242efe",
+      "tree": "cb448133ef610670212d78e0015cafe1c311b648",
+      "message": "chore: add changelog fragment for #10646\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>"
+    }
+  ],
+  "original_planning_request": {
+    "association": "Unique input/cache-token fingerprint and chronology, not direct request-ID matching.",
+    "_schema": "token-usage/v0.27.10",
+    "timestamp": "2026-09-17T21:32:22.596Z",
+    "event": "token_usage",
+    "request_id": "3618b98a-bd09-41c9-9c5e-4b9d9387ca5e",
+    "provider": "anthropic",
+    "model": "claude-opus-4-8",
+    "path": "/v1/messages?beta=true",
+    "status": 200,
+    "streaming": true,
+    "input_tokens": 2,
+    "output_tokens": 125,
+    "cache_read_tokens": 105725,
+    "cache_write_tokens": 271,
+    "duration_ms": 2001,
+    "response_bytes": 1094,
+    "ai_credits_this_response": 5.769125,
+    "ai_credits_total": 214.1308
+  },
+  "original_native_processing_seconds": 7.960092,
+  "original_native_interval": [
+    "2026-09-17T21:35:05.0602921Z",
+    "2026-09-17T21:35:13.0203841Z"
+  ],
+  "default_stable": "ec24e039dc52910d8afcff07200007a75d92d054",
+  "status": "Six fresh draft PRs prepared; Actions remain disabled; no comparison dispatched",
+  "token_adaptation": {
+    "original": "Original GitHub App installation token.",
+    "replacement": "Fork GITHUB_TOKEN, used only in trusted runner code.",
+    "effect": "Downstream agent review is not reproduced. GitHub documents normal push recursion prevention and approval-required pull_request synchronize runs. Never approve or dispatch inherited workflows.",
+    "source": "https://docs.github.com/en/actions/concepts/security/github_token"
+  },
+  "graphql_schema": {
+    "source": "https://docs.github.com/en/enterprise-cloud@latest/graphql/reference/commits",
+    "read_only_introspection": "GitSignature fields isValid and wasSignedByGitHub confirmed through GitHub GraphQL before implementation freeze."
+  },
+  "scope": "Prepared-patch publication only. No claim that the original full fix passed its required tests or that validation was replaced.",
+  "activation_initial_body": "🚀 [Bug fixer agent](https://github.com/opsmill/infrahub/actions/runs/35276466787) has started processing this issue comment\n\n<!-- gh-aw-workflow-id: Bug fixer agent -->\n\n<!-- gh-aw-comment-type: reaction -->",
+  "activation_initial_body_sha256": "6826b941433074e74dac9b12113c7a8543766147c142a1ea0f31a6718f11eb6a",
+  "comment_phase_correction": "Preserve the captured activation body. Setup creates one comment before timing. The timed publisher updates that same comment with the new commit link. Later conclusion output is outside this task.",
+  "adaptations": [
+    "Owned fork and controlled PR numbers, ref names and fixture author.",
+    "Original prepared bundle, target Git snapshots, messages, file bytes, PR title/body and labels retained.",
+    "GITHUB_TOKEN replaces original App token. No downstream agent review reproduced.",
+    "Activation body retained exactly; appended run footer and metadata use the experimental workflow.",
+    "Fresh shallow checkout before timing; required target fetch and bundle decoding remain timed.",
+    "Three fresh runner repetitions versus one historical original. Not a causal end-to-end comparison."
+  ],
+  "frozen_at": "2026-11-24T19:50:02.213Z",
+  "implementation_hashes": {
+    "publish.cjs": "53737d32ea09f7f6b35695810e7e6b0f857b09ce47247022f70450b5672ab017",
+    "run.cjs": "25f8a05b92f0d3d6a687c9eac34e270e355e791ed964c32353e8f0a188b0075f",
+    "workflow.yml": "6d97b263f4a2ac0e87072b002b41fc622e2a0d6cae8901ef1e8ab1911d0a1b86",
+    "test_guards.cjs": "f7ea9d0d9acdc8e5bc1321fd83e6359983277e6aef15d781d3ec2cdc9aa68f15"
+  },
+  "version": "Fresh matched publication fixtures V1",
+  "prior_historical_plan": "fix-publication-live/BOUND-PLAN-V1.json",
+  "comparison_plan": "resume-20261124/publication-preflight/PROSPECTIVE-PAIRED-PLAN-V1.json"
+}
