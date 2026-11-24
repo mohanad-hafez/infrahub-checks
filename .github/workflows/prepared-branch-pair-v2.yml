@@ -1,0 +1,44 @@
+name: Prepared branch comparison
+on:
+  push:
+    branches: [migration-publication-pair-20261124-02]
+permissions:
+  contents: read
+jobs:
+  compare:
+    if: github.repository == 'mohanad-hafez/infrahub-checks'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      copilot-requests: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24.0.0'
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 418c58a723bdba4697c28558330377deabd79870
+          path: original-source
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Prepare controller
+        run: npm install --global @github/copilot@1.0.108
+      - name: Compare
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node pair/run_pair.cjs original-source
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: publication-pair
+          path: |
+            pair/evidence/
+            !pair/evidence/**/client-state/**
+            !pair/evidence/**/mcp.json
+          retention-days: 30
